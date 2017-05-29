@@ -1,17 +1,17 @@
 {
-  "name": "@next-gen/typescript-lib-starter",
-  "version": "1.4.0",
-  "description": "TypeScript library setup for multiple compilation targets using tsc and webpack",
+  "name": "incremental-game-lib",
+  "version": "0.0.1",
+  "description": "A library to help build incremental games.",
   "main": "lib/index.js",
   "module": "lib-esm/index.js",
   "jsnext:main": "lib-esm/index.js",
-  "umd:main": "umd/typescript-lib-starter.min.js",
+  "umd:main": "umd/IncrementalGameLib.min.js",
   "typings": "typings/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/Hotell/typescript-lib-starter"
+    "url": "https://www.github.com/Ronin11/IncrementalGameLib"
   },
-  "author": "Martin Hochel",
+  "author": "Ronin11, Derek Hunter",
   "license": "MIT",
   "engines": {
     "node": ">=6.9"

@@ -1,1 +1,1 @@
-export { Greeter } from './Greeter';
+export { Resource } from './Resource';

@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+# 1.0.0 (2017-06-12)
+
+
+### build
+
+* **$Everything:** Stuff ([0bc561a](https://www.github.com/Ronin11/IncrementalGameLib/commit/0bc561a))
+
+
+### BREAKING CHANGES
+
+* **$Everything:** No
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://www.github.com/Hotell/typescript-lib-starter/compare/v1.3.0...v1.4.0) (2017-03-27)
 

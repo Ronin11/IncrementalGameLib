@@ -17,7 +17,7 @@
     "forin": true,
     "indent": [
       true,
-      "spaces"
+      "tabs"
     ],
     "linebreak-style": [
       true,

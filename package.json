@@ -1,6 +1,6 @@
 {
   "name": "incremental-game-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library to help build incremental games.",
   "main": "lib/index.js",
   "module": "lib-esm/index.js",

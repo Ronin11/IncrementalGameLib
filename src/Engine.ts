@@ -12,6 +12,13 @@ export class Engine{
 	HarvesterManager: HarvesterManager;
 	UpgradeManager: UpgradeManager;
 
+	private constructor(){
+		this.StateInfo = new StateInfo();
+		this.ResourceManager = new ResourceManager();
+		this.HarvesterManager = new HarvesterManager();
+		this.UpgradeManager = new UpgradeManager();
+		setInterval(this.updateLoop, 1000 * 1 * 1);
+	}
 
 	static getInstance(): Engine{
 		if(!this.instance){
@@ -19,10 +26,9 @@ export class Engine{
 		}
 		return this.instance;
 	}
-	private constructor(){
-		this.StateInfo = new StateInfo();
-		this.ResourceManager = new ResourceManager();
-		this.HarvesterManager = new HarvesterManager();
-		this.UpgradeManager = new UpgradeManager();
+	
+	private updateLoop(){
+		console.log("updateLoop");
+		// HarvesterManager.
 	}
 }
